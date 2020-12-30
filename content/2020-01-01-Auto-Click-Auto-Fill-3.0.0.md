@@ -1,7 +1,7 @@
 ---
 layout: blogs
 menu: blog
-title:  "Version 3.0.0"
+title:  "Auto Clicker Auto Fill 3.0.0"
 date: 2020-01-01
 status: "BETA version"
 tags: []

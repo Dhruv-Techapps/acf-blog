@@ -3,7 +3,7 @@ layout: blogs
 menu: blog
 date: 2018-01-02
 expiryDate: 2019-12-31
-title:  "Version 2.0.0"
+title:  "Auto Clicker Auto Fill 2.0.0"
 tags: [2.0.0,auto clicker, auto fill ]
 ---
 * Easy Configuration.

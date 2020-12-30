@@ -1,6 +1,6 @@
 ---
 layout: blogs
-title:  "Version 3.1.0"
+title:  "Auto Clicker Auto Fill 3.1.0"
 date: 2020-10-22
 tags: ["3.1.0", "auto clicker", "auto fill"]
 ---

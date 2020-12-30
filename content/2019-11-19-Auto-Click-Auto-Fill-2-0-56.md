@@ -2,7 +2,7 @@
 layout: blogs
 menu: blog
 date: 2019-11-19
-title:  "Version 2.0.56"
+title:  "Auto Clicker Auto Fill 2.0.56"
 tags: []
 ---
 * Github Issues

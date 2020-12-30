@@ -22,6 +22,9 @@ disableKinds:           ["404", "taxonomy", "taxonomyTerm", "RSS"]
 
 publishDir:             "_gh_pages"
 
+permalinks:
+  /: "/:year/:month/:title/"
+
 module:
   mounts:
     - source:           node_modules/bootstrap/dist

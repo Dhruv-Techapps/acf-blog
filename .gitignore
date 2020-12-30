@@ -40,6 +40,7 @@ build/Release
 # Dependency directories
 node_modules/
 resources/
+_gh_pages/
 jspm_packages/
 
 # TypeScript v1 declaration files

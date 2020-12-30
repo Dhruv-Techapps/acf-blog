@@ -2,7 +2,7 @@
 layout: blogs
 menu: blog
 date: 2019-12-21
-title:  "Version 2.0.60"
+title:  "Auto Clicker Auto Fill 2.0.60"
 tags: []
 ---
 - ##### New Features
