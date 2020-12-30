@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  {{ partial "header" . }}
+</head>
+
+<body>
+  {{ partial "skippy" . }}
+
+  {{ partial "docs-navbar" . }}
+
+  <main class="container">
+    {{ partial "post/single" . }}
+  </main>
+
+  {{ partial "footer" . }}
+  {{ partial "scripts" . }}
+</body>
+
+</html>

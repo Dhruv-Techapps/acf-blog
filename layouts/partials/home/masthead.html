@@ -1,0 +1,12 @@
+<div class="posts-container mx-auto px-3 my-5">
+  <div class="posts">
+    {{ range .Pages.ByPublishDate.Reverse }}
+      <div class="post mb-5">
+          <h1 class="post-title fw-500"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+          {{ partial "post/time" . }}
+          <p>{{ .Content }}</p>
+          {{ partial "post/tags" . }}
+      </div>
+    {{ end }}
+  </div>
+</div>
