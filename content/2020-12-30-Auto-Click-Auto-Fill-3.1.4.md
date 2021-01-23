@@ -1,6 +1,6 @@
 ---
 layout: blogs
-title:  "Auto Clicker Auto Fill 3.1.4 [DEV]"
+title:  "Auto Clicker Auto Fill 3.1.4"
 date: 2020-12-30
 tags: ["3.1.4", "auto clicker", "auto fill"]
 ---
