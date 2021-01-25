@@ -1,6 +1,6 @@
 ---
 layout: blogs
-title:  "Auto Clicker Auto Fill 3.1.5 [DEV]"
+title:  "Auto Clicker Auto Fill 3.1.5"
 date: 2021-01-06
 tags: ["3.1.5", "auto clicker", "auto fill", "statistics","log"]
 ---
