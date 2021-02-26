@@ -5,6 +5,8 @@ date: 2019-12-21
 title:  "Auto Clicker Auto Fill 2.0.60"
 tags: []
 ---
+
+{{<img "icons/beta_icon48.png" "48px">}}
 - ##### New Features
   - Scroll To Button/Link
   - Scroll To `top` \| `bottom` \| `left` \| `right`

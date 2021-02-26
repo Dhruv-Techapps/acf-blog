@@ -1,21 +1,10 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  {{ partial "header" . }}
-</head>
-
-<body>
-  {{ partial "skippy" . }}
-
-  {{ partial "docs-navbar" . }}
-
+{{ define "main" }}
   <main class="container">
     {{ partial "post/single" . }}
   </main>
-
-  {{ partial "footer" . }}
-  {{ partial "scripts" . }}
-</body>
-
-</html>
+{{ end }}
+{{ define "footer" }}
+  {{ range .Page.Params.extra_js -}}
+    <script{{ with .async }} async{{ end }} src="{{ .src }}"></script>
+  {{- end -}}
+{{- end -}}

@@ -1,6 +1,8 @@
 <header class="navbar navbar-expand-md navbar-light bd-navbar">
   <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
-    <a class="navbar-brand p-0 mr-2" href="/" aria-label="Bootstrap">A</a>
+    <a class="navbar-brand p-0 me-2" href="/" aria-label="Bootstrap">
+      {{ partial "icons/white_favicon32.svg" (dict "class" "d-block my-1" "width" "32" "height" "32") }}
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bdNavbar" aria-controls="bdNavbar"
       aria-expanded="false" aria-label="Toggle navigation">
       <svg class="bi" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -12,22 +14,28 @@
     <div class="collapse navbar-collapse" id="bdNavbar">
       <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0">
         <li class="nav-item col-6 col-md-auto">
-          <a class="nav-link p-2" aria-current="page" href="{{ .Site.Params.home }}"  target="_blank">Home</a>
+          <a class="nav-link p-2" href="{{ .Site.Params.Home }}"
+            onclick="gtag('send', 'event', 'Navbar', 'Community links', 'Bootstrap');" target="_blank">Home</a>
         </li>
         <li class="nav-item col-6 col-md-auto">
-          <a class="nav-link p-2" aria-current="true"            href="{{ .Site.Params.docs }}">Docs</a>
+          <a class="nav-link p-2"
+            href="{{ .Site.Params.docs }}"
+            onclick="gtag('send', 'event', 'Navbar', 'Community links', 'Docs');" target="_blank">Docs</a>
         </li>
         <li class="nav-item col-6 col-md-auto">
-          <a class="nav-link p-2" href="{{ .Site.Params.examples }}" target="_blank"            rel="noopener">Examples</a>
+          <a class="nav-link p-2" href="{{ .Site.Params.examples }}"
+            onclick="gtag('send', 'event', 'Navbar', 'Community links', 'Examples');" target="_blank"
+            rel="noopener">Examples</a>
         </li>
         <li class="nav-item col-6 col-md-auto">
-          <a class="nav-link p-2 active" href="/"             rel="noopener">Blog</a>
+          <a class="nav-link p-2 active" aria-current="page" href="/"
+            onclick="gtag('send', 'event', 'Navbar', 'Community links', 'Blog');"  rel="noopener">Blog</a>
         </li>
       </ul>
 
       <hr class="d-md-none text-white-50">
 
-      <ul class="navbar-nav flex-row flex-wrap ml-md-auto">
+      <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
         <li class="nav-item col-6 col-md-auto">
           <a class="nav-link p-2" href="{{ .Site.Params.repo }}" target="_blank" rel="noopener">
             {{ partial "icons/github.svg" (dict "class" "navbar-nav-svg d-inline-block align-text-top" "width" "36" "height" "36") }}
@@ -54,7 +62,7 @@
         </li>
       </ul>
 
-      <a class="btn btn-bd-download d-lg-inline-block my-2 my-md-0 ml-md-3"
+      <a class="btn btn-bd-download d-lg-inline-block my-2 my-md-0 ms-md-3"
         href="{{ .Site.Params.download }}">Download</a>
     </div>
   </nav>
