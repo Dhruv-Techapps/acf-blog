@@ -49,7 +49,10 @@ params:
   Home: "https://getautoclicker.com/"
   docs: "https://getautoclicker.com/docs/3.1/getting-started/introduction/"
   download: "https://getautoclicker.com/docs/3.1/getting-started/download/"
-
+  stable: "https://stable.getautoclicker.com"
+  beta: "https://beta.getautoclicker.com"
+  dev: "https://dev.getautoclicker.com"
+  
   cdn:
     css: "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
     css_hash: "sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
