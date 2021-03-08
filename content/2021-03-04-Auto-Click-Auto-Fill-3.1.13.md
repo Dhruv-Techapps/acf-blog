@@ -1,8 +1,8 @@
 ---
 layout: blogs
-title:  "Auto Clicker Auto Fill 3.2.13"
+title:  "Auto Clicker Auto Fill 3.1.13"
 date: 2021-03-04
-tags: ["3.2.13", "auto clicker", "auto fill", "data entry","manual start","configuration list","init wait","select","option"]
+tags: ["3.1.13", "auto clicker", "auto fill", "data entry","manual start","configuration list","init wait","select","option"]
 ---
 
 {{<img "icons/dev_icon48.png" "48px">}}
