@@ -8,12 +8,8 @@ tags:
     "iframe first",
     "auto clicker",
     "auto fill",
-    "data entry",
-    "manual start",
-    "configuration list",
-    "init wait",
-    "select",
-    "option",
+    "addon",
+    "theme",
   ]
 ---
 
