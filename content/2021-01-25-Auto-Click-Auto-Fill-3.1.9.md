@@ -5,8 +5,6 @@ date: 2021-01-25
 tags: ["3.1.9", "auto clicker", "auto fill", "data entry","manual start","configuration list","init wait"]
 ---
 
-
-{{<img "icons/beta_icon48.png" "48px">}}
 ### Github Issues {class="mt-5 my-3"}
 * URL matching issue [#140](https://github.com/Dhruv-Techapps/auto-click-auto-fill/issues/140)
 * Possibility to sort/re-order Configuration Names [#143](https://github.com/Dhruv-Techapps/auto-click-auto-fill/issues/143)

@@ -13,9 +13,7 @@ tags:
   ]
 ---
 
-{{<img "icons/dev_icon48.png" "48px">}}
-
-
+{{<img "icons/beta_icon48.png" "48px">}}
 ### Issues {class="my-3"}
 - Fixed action not executing if addon xpath is not found
 
