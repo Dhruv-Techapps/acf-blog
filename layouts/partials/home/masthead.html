@@ -6,8 +6,11 @@
       {{ partial "post/time" . }}
       <p>{{ .Content }}</p>
       {{ partial "post/tags" . }}
+      <div class="my-3">
+        {{ partial "share-buttons" . }}
+      </div>
     </div>
-    <hr/>
+    <hr />
     {{ end }}
   </div>
 </div>
