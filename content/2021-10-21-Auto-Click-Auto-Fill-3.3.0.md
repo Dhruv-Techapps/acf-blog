@@ -1,22 +1,16 @@
 ---
 layout: blogs
-title: "Auto Clicker Auto Fill 3.2.9"
-date: 2021-06-14
+title: "Auto Clicker Auto Fill 3.3.0"
+date: 2021-10-21
 tags:
   [
-    "3.2.9",
-    "attribute update",
-    "attribute remove",
-    "class add",
-    "class replace",
-    "class remove",
-    "class clear",
-    "auto fill",
-    "value",
-    "notification",
-    "discord notification",
+    "3.3.0",
+    "value"
   ]
 ---
+
+{{<img "icons/stable_icon48.png" "48px">}}
+{{<img "icons/beta_icon48.png" "48px">}}
 
 
 ### New Features {class="my-3"}
