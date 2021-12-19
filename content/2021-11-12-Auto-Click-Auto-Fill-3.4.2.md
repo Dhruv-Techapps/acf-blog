@@ -21,3 +21,7 @@ tags:
 - [Copy](https://getautoclicker.com/docs/3.x/action/value/#copy)
 - [Paste](https://getautoclicker.com/docs/3.x/action/value/#paste)
 - [Random Value](https://getautoclicker.com/docs/3.x/action/value/#random-value)
+
+
+#### Auto Save
+> Auto save is back with validation within fields. Now you no need to click save just keep on type and configuration will auto save for you..
