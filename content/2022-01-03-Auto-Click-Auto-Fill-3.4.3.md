@@ -1,11 +1,11 @@
 ---
 layout: blogs
-title: "Auto Clicker Auto Fill 3.4.2"
-slug: 3.4.2
+title: "Auto Clicker Auto Fill 3.4.3"
+slug: 3.4.3
 date: 2022-01-03
 tags:
   [
-    "3.4.2",
+    "3.4.3",
     "recording",
     "copy",
     "paste",
