@@ -23,7 +23,7 @@ disableKinds: ["404", "taxonomy", "taxonomyTerm", "RSS"]
 publishDir: "docs"
 
 permalinks:
-  /: "/:year/:month/:title/"
+  /: "/:slug/"
 
 module:
   mounts:
