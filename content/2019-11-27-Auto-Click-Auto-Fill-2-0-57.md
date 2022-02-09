@@ -6,9 +6,9 @@ title:  "Auto Clicker Auto Fill 2.0.57"
 tags: ["action",click event, columns filter, name]
 ---
 - ##### New Features
-  - [Action](../docs/action) Sorting
+  - [Action](https://getautoclicker.com/docs/3.x/action/overview/) Sorting
   - Double Click Event
-  - [Action](../docs/action) level Import and export feature
-  - Hide / Show Column under [Action](../docs/action) table
+  - [Action](https://getautoclicker.com/docs/3.x/action/overview/) level Import and export feature
+  - Hide / Show Column under [Action](https://getautoclicker.com/docs/3.x/action/overview/) table
   - Name each Action/Row
   - > [Inbox me](mailto:dhruv.techapps@gmail.com) for new features you like to be added.
