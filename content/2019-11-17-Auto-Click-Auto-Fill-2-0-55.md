@@ -3,7 +3,7 @@ layout: blogs
 menu: blog
 date: 2019-11-17
 title:  "Auto Clicker Auto Fill 2.0.55"
-tags: []
+tags: [subscription]
 ---
 {{<markdown>}}
 * Improved UI for configuring click / fill

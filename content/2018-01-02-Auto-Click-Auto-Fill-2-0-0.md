@@ -4,7 +4,7 @@ menu: blog
 date: 2018-01-02
 expiryDate: 2019-12-31
 title:  "Auto Clicker Auto Fill 2.0.0"
-tags: [2.0.0,auto clicker, auto fill ]
+tags: ["init-wait","retry"]
 ---
 * Easy Configuration.
 * Init-Wait is used by extension to wait for # of secs wait before it starts first click. Many website takes time to load and init-wait can help extension to wait for page to load.

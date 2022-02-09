@@ -3,7 +3,7 @@ layout: blogs
 menu: blog
 date: 2019-11-27
 title:  "Auto Clicker Auto Fill 2.0.57"
-tags: []
+tags: ["action",click event, columns filter, name]
 ---
 - ##### New Features
   - [Action](../docs/action) Sorting

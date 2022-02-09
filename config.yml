@@ -3,6 +3,10 @@ title: "Auto Clicker AutoFill"
 baseURL: "https://blog.getautoclicker.com"
 enableInlineShortcodes: true
 
+taxonomies:
+  category: categories
+  tag: tags
+
 markup:
   goldmark:
     renderer:
@@ -18,7 +22,7 @@ buildFuture: true
 
 enableRobotsTXT: true
 metaDataFormat: "yaml"
-disableKinds: ["404", "taxonomy", "taxonomyTerm", "RSS"]
+disableKinds: ["404", "taxonomyTerm", "RSS"]
 
 publishDir: "docs"
 

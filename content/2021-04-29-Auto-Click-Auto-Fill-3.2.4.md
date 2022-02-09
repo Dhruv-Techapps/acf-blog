@@ -2,15 +2,7 @@
 layout: blogs
 title: "Auto Clicker Auto Fill 3.2.4"
 date: 2021-04-29
-tags:
-  [
-    "3.2.4",
-    "iframe first",
-    "auto clicker",
-    "auto fill",
-    "addon",
-    "theme",
-  ]
+tags: [iframe first, addon, xpath, dark mode]
 ---
 ### Issues {class="my-3"}
 - Fixed action not executing if addon xpath is not found

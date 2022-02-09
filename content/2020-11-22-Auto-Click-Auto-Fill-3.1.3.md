@@ -2,7 +2,7 @@
 layout: blogs
 title:  "Auto Clicker Auto Fill 3.1.3"
 date: 2020-11-22
-tags: ["3.1.3", "auto clicker", "auto fill"]
+tags: [edge, chrome, click events, mouse events, element finder, xpath]
 ---
 
 ### Bug Fix

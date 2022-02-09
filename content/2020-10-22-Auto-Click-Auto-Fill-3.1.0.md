@@ -2,7 +2,7 @@
 layout: blogs
 title:  "Auto Clicker Auto Fill 3.1.0"
 date: 2020-10-22
-tags: ["3.1.0", "auto clicker", "auto fill"]
+tags: [edge, start time, notification, xpath, location command, addon, value extractor, retry, retry interval]
 ---
 
 ### New Features

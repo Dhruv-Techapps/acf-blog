@@ -5,15 +5,14 @@ slug: 3.4.3
 date: 2022-01-03
 tags:
   [
-    "3.4.3",
     "recording",
     "copy",
     "paste",
-    "random value"
+    "random",
+    "value",
+    "auto save"
   ]
 ---
-
-{{<img "icons/dev_icon48.png" "48px">}}
 
 
 ### New Features {class="my-3"}

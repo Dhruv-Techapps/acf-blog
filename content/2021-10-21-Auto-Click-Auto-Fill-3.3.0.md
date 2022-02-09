@@ -4,8 +4,15 @@ title: "Auto Clicker Auto Fill 3.3.0"
 date: 2021-10-21
 tags:
   [
-    "3.3.0",
-    "value"
+   "attribute",
+    "class",
+    "auto fill",
+    "value",
+    "notification",
+    "discord",
+    "url",
+    name,
+    element finder
   ]
 ---
 

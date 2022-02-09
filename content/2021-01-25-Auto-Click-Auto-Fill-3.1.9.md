@@ -2,7 +2,7 @@
 layout: blogs
 title:  "Auto Clicker Auto Fill 3.1.9"
 date: 2021-01-25
-tags: ["3.1.9", "auto clicker", "auto fill", "data entry","manual start","configuration list","init wait"]
+tags: [url, reorder configurations, enable, status, random, data entry, manual start]
 ---
 
 ### Github Issues {class="mt-5 my-3"}
@@ -13,6 +13,6 @@ tags: ["3.1.9", "auto clicker", "auto fill", "data entry","manual start","config
 * Random time with part of second possibility [#148](https://github.com/Dhruv-Techapps/auto-click-auto-fill/issues/148)
 
 ### New Features {class="my-3"}
-* [Data Entry](https://getdataentry.com/docs/3.1/getting-started/introduction/)
-* [Manual Start](https://getautoclicker.com/docs/3.1/configuration/manual-start/)
-* [Reorder Configuration](https://getautoclicker.com/docs/3.1/configuration-list/reorder-configuration/)
+* [Data Entry](https://getdataentry.com/docs/3.x/getting-started/introduction/)
+* [Manual Start](https://getautoclicker.com/docs/3.x/configuration/manual-start/)
+* [Reorder Configuration](https://getautoclicker.com/docs/3.x/configuration-list/reorder-configuration/)

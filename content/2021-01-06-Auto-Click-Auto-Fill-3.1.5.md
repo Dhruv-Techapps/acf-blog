@@ -2,7 +2,7 @@
 layout: blogs
 title:  "Auto Clicker Auto Fill 3.1.5"
 date: 2021-01-06
-tags: ["3.1.5", "auto clicker", "auto fill", "statistics","log"]
+tags: [icon, counter, status, log]
 ---
 
 ### Github Issues
@@ -11,5 +11,5 @@ tags: ["3.1.5", "auto clicker", "auto fill", "statistics","log"]
 * [Can't view/edit configuration when disabled #133](https://github.com/Dhruv-Techapps/auto-click-auto-fill/issues/133)
 
 ### New Features
-* [Extension status on icon](https://getautoclicker.com/docs/3.1/extension/icon/)
-* [Extension waiting status on log](https://getautoclicker.com/docs/3.1/extension/log/)
+* [Extension status on icon](https://getautoclicker.com/docs/3.x/extension/icon/)
+* [Extension waiting status on log](https://getautoclicker.com/docs/3.x/extension/log/)

@@ -3,7 +3,7 @@ layout: blogs
 menu: blog
 date: 2019-12-21
 title:  "Auto Clicker Auto Fill 2.0.60"
-tags: []
+tags: [scroll to, click events,mouse events, form events, counter]
 ---
 
 - ##### New Features
