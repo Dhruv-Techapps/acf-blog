@@ -15,4 +15,4 @@ tags: [url, reorder configurations, enable, status, random, data entry, manual s
 ### New Features {class="my-3"}
 * [Data Entry](https://getdataentry.com/docs/3.x/getting-started/introduction/)
 * [Manual Start](https://getautoclicker.com/docs/3.x/configuration-settings/manual-start/)
-* [Reorder Configuration](https://getautoclicker.com/docs/3.x/configuration-list/reorder-configuration/)
+* [Reorder Configurations](https://getautoclicker.com/docs/3.x/configuration-list/reorder-configurations/)
