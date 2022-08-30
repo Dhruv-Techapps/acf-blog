@@ -19,10 +19,11 @@ markup:
 
 buildDrafts: true
 buildFuture: true
+rssLimit: 1
 
 enableRobotsTXT: true
 metaDataFormat: "yaml"
-disableKinds: ["404", "taxonomyTerm", "RSS"]
+disableKinds: ["404", "taxonomyTerm"]
 
 publishDir: "docs"
 
