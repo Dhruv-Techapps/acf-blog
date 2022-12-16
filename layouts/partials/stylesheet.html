@@ -1,5 +1,11 @@
+{{ if eq .Page.Layout "docs" -}}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+{{- end }}
+
 {{- "<!-- Bootstrap core CSS -->" | safeHTML }}
-<link href="{{ .Site.Params.cdn.css }}" rel="stylesheet"
-  {{ printf "integrity=%q" .Site.Params.cdn.css_hash | safeHTMLAttr }} crossorigin="anonymous">
-<link rel="stylesheet" href="https://getautoclicker.com/css/docs.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<link href="{{ .Site.Params.cdn.css }}" rel="stylesheet"  {{ printf "integrity=%q" .Site.Params.cdn.css_hash | safeHTMLAttr }} crossorigin="anonymous">
+
+{{- if (ne .Page.Layout "examples") }}
+  {{- $style := resources.Get "css/docs.css" }}
+  <link href="{{ $style.Permalink | relURL }}" rel="stylesheet">
+{{- end }}
