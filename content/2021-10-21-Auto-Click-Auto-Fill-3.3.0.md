@@ -16,10 +16,6 @@ tags:
   ]
 ---
 
-{{<img "icons/stable_icon48.png" "48px">}}
-{{<img "icons/beta_icon48.png" "48px">}}
-
-
 ### New Features {class="my-3"}
 
 - [Attribute](https://getautoclicker.com/docs/3.x/action/value/#attribute)

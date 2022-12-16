@@ -6,9 +6,6 @@ date: 2022-03-09
 tags: ["addon", "date","condition","element finder","batch repeat","url"]
 ---
 
-{{<img "icons/dev_icon48.png" "48px">}}
-
-
 ### New Features {class="my-3"}
 - Fixed Date check issue for 24 hours (mid night)
 - Fixed Copy only filter text issue
