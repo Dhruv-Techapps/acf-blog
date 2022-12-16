@@ -4,6 +4,8 @@
 {{- with $name -}}
 {{- $url := split $.Page.File.Dir "\\" -}}
 {{- $version := index $url 1 | default $.Site.Params.docs_version -}}
-<img class="img-thumbnail mb-3" srcset="/docs/{{$version}}/assets/img/{{.}}" src="/docs/{{$version}}/assets/img/{{.}}"
-  alt="" width={{$width}} loading="lazy" style="{{$style}}" />
+<video class="video-thumbnail mb-3 border border-secondary" autoplay controls
+  alt="" width={{$width}} loading="lazy" style="{{$style}}" >
+  <source src="/docs/{{$version}}/assets/video/{{.}}" type="video/mp4">
+</video>
 {{- else }}{{ errorf "Missing param key: %s" $.Position }}{{ end -}}

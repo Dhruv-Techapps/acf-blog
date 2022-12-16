@@ -6,9 +6,6 @@ date: 2022-03-24
 tags: ["addon", "date","condition","element finder","replace"]
 ---
 
-{{<img "icons/dev_icon48.png" "48px">}}
-
-
 ### New Features {class="my-3"}
 - Fixed Date check issue for 24 hours (mid night)
 - Fixed Copy only filter text issue
