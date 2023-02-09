@@ -43,7 +43,7 @@ Even though MV3 do not support local storage it do not remove any data from loca
 {{</ callout >}}
 
 ### Steps
-- go to [chrome://extension](chrome://extension)
+- go to [chrome://extensions](chrome://extensions)
 - enable developer mode from top right navbar
 - Click on service worker link within extension card
 - Devtools window opens
