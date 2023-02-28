@@ -1,21 +1,25 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ .Site.LanguageCode }}">
   <head>
-    {{ partial "header" . }}
+    {{ partial "head" . }}
   </head>
-  {{ block "body_override" . }}<body>{{ end }}
-    {{ partial "skippy" . }}
+  <body>
     {{ partial "icons" . }}
+    {{ partial "navbar" . }}
 
-    {{ partial "docs-navbar" . }}
-
-    {{ block "main" . }}
-    {{ end }}
+    <div class="container-xxl px-4 px-xxl-2">
+      <div class="d-lg-grid" id="content">
+        <div class="sidebar">
+          {{ partial "hero" . }}
+        </div>
+        <div class="main">
+          {{ block "main" . }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
 
     {{ partial "footer" . }}
     {{ partial "scripts" . }}
-
-    {{ block "footer" . }}
-    {{ end }}
   </body>
 </html>
