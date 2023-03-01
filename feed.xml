@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Auto Clicker AutoFill Blog</title><link>https://blog.getautoclicker.com/</link><description>Recent content on Auto Clicker AutoFill Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 16 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.getautoclicker.com/feed.xml" rel="self" type="application/rss+xml"/><item><title>Auto Clicker Auto Fill v3.4.10</title><link>https://blog.getautoclicker.com/2022/12/16/auto-click-auto-fill-3-4-10/</link><pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate><guid>https://blog.getautoclicker.com/2022/12/16/auto-click-auto-fill-3-4-10/</guid><description>&lt;p>We have updated our extension to manifest versions 3 and deployed on &lt;a href="https://dev.getautoclicker.com">DEV&lt;/a> environment.&lt;/p>
+&lt;p>Chrome is going to stop support for mv2 as per there &lt;a href="https://developer.chrome.com/docs/extensions/mv3/mv2-sunset/">timeline&lt;/a>&lt;/p>
+&lt;p>I request you all to import your configuration in &lt;a href="https://dev.getautoclicker.com">dev&lt;/a> version once and try out if it works seamlessly. As the same version is going to be deployed on &lt;a href="https://beta.getautoclicker.com">beta&lt;/a> and &lt;a href="https://stable.getautoclicker.com">stable&lt;/a> version soon. if you find any issues with MV3 versions, do create a issue on &lt;a href="https://github.com/Dhruv-Techapps/auto-click-auto-fill/issues">Github&lt;/a> and also add a tag of MV3.&lt;/p>
+&lt;p>Below are places where we have made changes which are related to MV3. If you find if you have used any of this, you need to test your configuration for same, we have created a separate thread for MV3 on our Discord channel as well. You can ping here directly also&lt;/p>
+&lt;h2 id="changes">Changes&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Feature&lt;/th>
+&lt;th>Doc&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Record&lt;/td>
+&lt;td>&lt;a href="https://getautoclicker.com/docs/3.x/record/overview/">https://getautoclicker.com/docs/3.x/record/overview/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Icon&lt;/td>
+&lt;td>&lt;a href="https://getautoclicker.com/docs/3.x/extension/icon/">https://getautoclicker.com/docs/3.x/extension/icon/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Notifications&lt;/td>
+&lt;td>&lt;a href="https://getautoclicker.com/docs/3.x/settings/show-notification/">https://getautoclicker.com/docs/3.x/settings/show-notification/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Export&lt;/td>
+&lt;td>&lt;a href="https://getautoclicker.com/docs/3.x/configuration/export-import/">https://getautoclicker.com/docs/3.x/configuration/export-import/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Import&lt;/td>
+&lt;td>&lt;a href="https://getautoclicker.com/docs/3.x/configuration/export-import/">https://getautoclicker.com/docs/3.x/configuration/export-import/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bulk Export&lt;/td>
+&lt;td>&lt;a href="https://getautoclicker.com/docs/3.x/config-list/bulk-export/">https://getautoclicker.com/docs/3.x/config-list/bulk-export/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bulk Import&lt;/td>
+&lt;td>&lt;a href="https://getautoclicker.com/docs/3.x/config-list/bulk-import/">https://getautoclicker.com/docs/3.x/config-list/bulk-import/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Discord Notification&lt;/td>
+&lt;td>&lt;a href="https://getautoclicker.com/docs/3.x/settings/show-notification/">https://getautoclicker.com/docs/3.x/settings/show-notification/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Copy&lt;/td>
+&lt;td>&lt;a href="https://getautoclicker.com/docs/3.x/action/value/#copy">https://getautoclicker.com/docs/3.x/action/value/#copy&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Paste&lt;/td>
+&lt;td>&lt;a href="https://getautoclicker.com/docs/3.x/action/value/#paste">https://getautoclicker.com/docs/3.x/action/value/#paste&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Auto Clicker Auto Fill 3.4.7</title><link>https://blog.getautoclicker.com/2022/03/24/auto-click-auto-fill-3-4-7/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.getautoclicker.com/2022/03/24/auto-click-auto-fill-3-4-7/</guid><description>&lt;h3 class="my-3" id="new-features">New Features&lt;/h3>
+&lt;ul>
+&lt;li>Fixed Date check issue for 24 hours (mid night)&lt;/li>
+&lt;li>Fixed Copy only filter text issue&lt;/li>
+&lt;li>Added function call in console&lt;/li>
+&lt;li>Fixed retry infinite scenario for Addon&lt;/li>
+&lt;/ul></description></item><item><title>Auto Clicker Auto Fill 3.4.6</title><link>https://blog.getautoclicker.com/2022/03/09/auto-click-auto-fill-3-4-6/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.getautoclicker.com/2022/03/09/auto-click-auto-fill-3-4-6/</guid><description>&lt;h3 class="my-3" id="new-features">New Features&lt;/h3>
+&lt;ul>
+&lt;li>Fixed Date check issue for 24 hours (mid night)&lt;/li>
+&lt;li>Fixed Copy only filter text issue&lt;/li>
+&lt;li>Added function call in console&lt;/li>
+&lt;li>Fixed retry infinite scenario for Addon&lt;/li>
+&lt;/ul></description></item><item><title>Auto Clicker Auto Fill 3.4.4</title><link>https://blog.getautoclicker.com/2022/02/08/auto-click-auto-fill-3-4-4/</link><pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.getautoclicker.com/2022/02/08/auto-click-auto-fill-3-4-4/</guid><description>&lt;h3 class="my-3" id="new-features">New Features&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://getautoclicker.com/docs/3.x/configuration/duplicate/">Duplicate&lt;/a> new feature added into Auto Clicker AutoFill extension to duplicate existing configuration and alter part of it. It&amp;rsquo;s similar to copying and pasting. You must change the &lt;a href="https://getautoclicker.com/docs/3.x/configuration/url/">URL&lt;/a> of the configuration once you duplicate it so that it does not get conflict with the existing configuration. As whenever our page loads and extension gets loaded in it. it picks the URL of the page and tries to find a matching configuration for it. If you have configured more than one configuration for a single URL. Extension chooses the first matching URL and leaves the other configurations&lt;/li>
+&lt;li>Addon &lt;a href="https://getautoclicker.com/docs/3.x/addon/element-finder/">Element Finder&lt;/a> supports &lt;a href="https://getautoclicker.com/docs/3.x/batch/repeat/">&lt;code>&amp;lt;batchRepeat&amp;gt;&lt;/code> &lt;/a> into it. It can now check conditions row by row using the batch process.&lt;/li>
+&lt;li>Addon &lt;a href="https://getautoclicker.com/docs/3.x/addon/element-finder/">Element Finder&lt;/a> also supports a new feature which is comparing against &lt;a href="https://getautoclicker.com/docs/3.x/addon/element-finder/#check-time">data and time&lt;/a> of the system. Conditions can be added for the action to be executed when the system date matches, exceeds or falls below the system date. Along with the system date, you can compare with the month, weekday, time, hours, minutes, and seconds.&lt;/li>
+&lt;/ul></description></item><item><title>Auto Clicker Auto Fill 3.4.3</title><link>https://blog.getautoclicker.com/2022/01/03/auto-click-auto-fill-3-4-3/</link><pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate><guid>https://blog.getautoclicker.com/2022/01/03/auto-click-auto-fill-3-4-3/</guid><description>&lt;h3 class="my-3" id="new-features">New Features&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://getautoclicker.com/docs/3.x/record/overview/">Recording&lt;/a> - now its even easier to configure action using our record option. Simple start the recording and perform all the operation like filling form and clicking any button, selecting dropdown value, or checking radio or checkbox all will be recorded and when the stop recording it will save directly into extension configuration.&lt;/li>
+&lt;li>&lt;a href="https://getautoclicker.com/docs/3.x/action/value/#copy">Copy&lt;/a> - now you can copy some text from webpage and paste it into field you require. Copy is combined with regex which means while copying you can perform filter operation to exclude or include specific part of text from webpage.&lt;/li>
+&lt;li>&lt;a href="https://getautoclicker.com/docs/3.x/action/value/#paste">Paste&lt;/a> - it&amp;rsquo;s simple it paste back content which is last copied from webpage. paste do not work with clipboard it has access to only content which is copied from the webpage through extension only.&lt;/li>
+&lt;li>&lt;a href="https://getautoclicker.com/docs/3.x/action/value/#random-value">Random Value&lt;/a> - This is some unique feature which we recently introduced in our extension with this you can generate random value of any type and of any length. It can also help you to generate partial random text for example below. random text can be combination of numbers words and symbol or anything user defined.
+&lt;ul>
+&lt;li>example&lt;code>768&lt;/code>@gmail.com&lt;/li>
+&lt;li>example&lt;code>142&lt;/code>@gmail.com&lt;/li>
+&lt;li>example&lt;code>125&lt;/code>@gmail.com&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="auto-save">Auto Save&lt;/h4>
+&lt;p>Auto save is back with validation within fields. Now you no need to click save just keep on type and configuration will auto save for you.&lt;/p>
+&lt;p>Behind the screen when you type and move out of field by clicking tab or clicking on any other field or simply clicking any where in page and move out of field first field is getting validated like entered value is correct or not. If value is fine save is triggered which saved value to storage. If you change something in field and directly go and refresh page you may sometimes not see the required action.&lt;/p>
+&lt;p>Do create issue on our github repo to let us know if you facing any issue with this auto save.&lt;/p></description></item><item><title>Auto Clicker Auto Fill 3.3.0</title><link>https://blog.getautoclicker.com/2021/10/21/auto-click-auto-fill-3.3.0/</link><pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate><guid>https://blog.getautoclicker.com/2021/10/21/auto-click-auto-fill-3.3.0/</guid><description>&lt;h3 class="my-3" id="new-features">New Features&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://getautoclicker.com/docs/3.x/action/value/#attribute">Attribute&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://getautoclicker.com/docs/3.x/action/value/#class">Class&lt;/a>&lt;/li>
+&lt;li>Discord Notifications&lt;/li>
+&lt;/ul>
+&lt;h4 id="attribute">Attribute&lt;/h4>
+&lt;p>Now its possible to update or remove attribute from element using Auto Clicker AutoFill&lt;/p>
+&lt;ul>
+&lt;li>&lt;kbd>Attr::set::prop::value&lt;/kbd> syntax to update attribute e.g. Attr::set::target::_blank -&amp;gt; to update links to open in new tab&lt;/li>
+&lt;li>&lt;kbd>Attr::remove::prop&lt;/kbd> syntax to remove attribute e.g. Attr::remove::disabled -&amp;gt; to remove disabled attribute from button and make it enable&lt;/li>
+&lt;/ul>
+&lt;h4 id="class">Class&lt;/h4>
+&lt;p>Now its possible to update / remove / replace / clear class from element using Auto Clicker AutoFill&lt;/p>
+&lt;ul>
+&lt;li>&lt;kbd>Class::add::className&lt;/kbd> syntax to add attribute&lt;/li>
+&lt;li>&lt;kbd>Class::remove::className&lt;/kbd> syntax to remove attribute&lt;/li>
+&lt;li>&lt;kbd>Class::replace::className::className&lt;/kbd> syntax to replace attribute&lt;/li>
+&lt;li>&lt;kbd>Class::clear&lt;/kbd> syntax to clear attribute&lt;/li>
+&lt;/ul>
+&lt;h4 id="discord-notification">Discord Notification&lt;/h4>
+&lt;p>Now get notification on your mobile for any &lt;em>Error/Completion&lt;/em> of configuration on your system right from Auto Clicker AutoFill extension. In order to receive notification on mobile you need to install &lt;a href="https://discord.com/download">discord mobile app&lt;/a> first. Create new account if you haven&amp;rsquo;t created yet. join our server &lt;a href="https://discord.gg/hArVQns">Auto Clicker AutoFill&lt;/a>. now open &lt;a href="https://dev.getautoclicker.com/">configuration page&lt;/a> and login with same discord account. open settings and enable Discord Notifications. Its currently in DEV and under testing phase so you may face some issue also we may move this feature in some other location(Action specific notification) based on your feedback.&lt;/p>
+&lt;h2 id="important-for-discord-notification">Important for Discord Notification&lt;/h2>
+&lt;p>Below are steps how discord notifications work&lt;/p>
+&lt;ul>
+&lt;li>Auto Clicker AutoFill BOT is installed on secure google cloud which send message to you on Discord&lt;/li>
+&lt;li>An Trigger is sent from extension installed on your system to service (Auto Clicker AutoFill BOT) when some event is occurred (&lt;em>Error/Completion&lt;/em> completed).
+&lt;ul>
+&lt;li>&lt;strong>Name&lt;/strong> of configuration (for &lt;em>Error/Completion&lt;/em>)&lt;/li>
+&lt;li>&lt;strong>URL&lt;/strong> of configuration (for &lt;em>Error/Completion&lt;/em>)&lt;/li>
+&lt;li>&lt;strong>Element&lt;/strong> Finder of Action (for &lt;em>Error&lt;/em> only)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Above three information is send from your extension to google cloud server which BOT process and send you Direct Message to your Discord Account&lt;/li>
+&lt;/ul>
+&lt;hr/>
+&lt;blockquote>
+&lt;p>We are not storing any of above three information anywhere in our database not using same in any way. It&amp;rsquo;s processed on the fly with BOT and send to you without even logging same.&lt;/p>
+&lt;/blockquote></description></item><item><title>Auto Clicker Auto Fill 3.2.4</title><link>https://blog.getautoclicker.com/2021/04/29/auto-click-auto-fill-3.2.4/</link><pubDate>Thu, 29 Apr 2021 00:00:00 +0000</pubDate><guid>https://blog.getautoclicker.com/2021/04/29/auto-click-auto-fill-3.2.4/</guid><description>&lt;h3 class="my-3" id="issues">Issues&lt;/h3>
+&lt;ul>
+&lt;li>Fixed action not executing if addon xpath is not found&lt;/li>
+&lt;/ul>
+&lt;h3 class="my-3" id="new-features">New Features&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://getautoclicker.com/docs/3.x/action-settings/iframe-first/">Iframe First&lt;/a>
+&lt;img src="https://getautoclicker.com/docs/3.x/assets/img/iframe-first.png" class="d-block mb-2"/>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>new dark mode
+&lt;a href="img/dark-theme.png">!Dark Theme&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Auto Clicker Auto Fill 3.2.0</title><link>https://blog.getautoclicker.com/2021/03/31/auto-click-auto-fill-3.2.0/</link><pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate><guid>https://blog.getautoclicker.com/2021/03/31/auto-click-auto-fill-3.2.0/</guid><description>&lt;h3 class="my-3" id="new-features">New Features&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://getautoclicker.com/docs/3.x/action/value/#query-param">Query Param&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;img src="https://getautoclicker.com/docs/3.x/assets/img/query.png" class="d-block mb-2"/></description></item><item><title>Auto Clicker Auto Fill 3.1.13</title><link>https://blog.getautoclicker.com/2021/03/04/auto-click-auto-fill-3.1.13/</link><pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate><guid>https://blog.getautoclicker.com/2021/03/04/auto-click-auto-fill-3.1.13/</guid><description>&lt;img src="https://getautoclicker.com/docs/3.x/assets/img/select-option.png" class="d-block"/>
+&lt;h3 class="my-3" id="new-features">New Features&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://getautoclicker.com/docs/3.x/action/value/#select-option">Select Option&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Auto Clicker Auto Fill 3.1.9</title><link>https://blog.getautoclicker.com/2021/01/25/auto-click-auto-fill-3.1.9/</link><pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate><guid>https://blog.getautoclicker.com/2021/01/25/auto-click-auto-fill-3.1.9/</guid><description>&lt;h3 class="mt-5 my-3" id="github-issues">Github Issues&lt;/h3>
+&lt;ul>
+&lt;li>URL matching issue &lt;a href="https://github.com/Dhruv-Techapps/auto-click-auto-fill/issues/140">#140&lt;/a>&lt;/li>
+&lt;li>Possibility to sort/re-order Configuration Names &lt;a href="https://github.com/Dhruv-Techapps/auto-click-auto-fill/issues/143">#143&lt;/a>&lt;/li>
+&lt;li>Enabled and Disabled Configuration mix-up prevention &lt;a href="https://github.com/Dhruv-Techapps/auto-click-auto-fill/issues/144">#144&lt;/a>&lt;/li>
+&lt;li>display enable status for configs on dropdown lsit &lt;a href="https://github.com/Dhruv-Techapps/auto-click-auto-fill/issues/146">#146&lt;/a>&lt;/li>
+&lt;li>Random time with part of second possibility &lt;a href="https://github.com/Dhruv-Techapps/auto-click-auto-fill/issues/148">#148&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 class="my-3" id="new-features">New Features&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://getdataentry.com/docs/3.x/getting-started/introduction/">Data Entry&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://getautoclicker.com/docs/3.x/configuration-settings/manual-start/">Manual Start&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://getautoclicker.com/docs/3.x/configuration-list/reorder-configurations/">Reorder Configurations&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
