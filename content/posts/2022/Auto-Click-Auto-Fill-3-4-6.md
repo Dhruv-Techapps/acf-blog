@@ -1,7 +1,8 @@
 ---
 author: Dhruv-Tech-Apps
-date: "2022-03-09"
+date: '2022-03-09'
 title: Auto Clicker Auto Fill 3.4.6
+slug: 3.4.6
 keywords:
   - addon
   - date
@@ -13,6 +14,7 @@ keywords:
 ---
 
 ### New Features {class="my-3"}
+
 - Fixed Date check issue for 24 hours (mid night)
 - Fixed Copy only filter text issue
 - Added function call in console
