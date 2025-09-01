@@ -10,6 +10,6 @@
   "author": "Dhruv Techapps",
   "license": "Apache-2.0",
   "dependencies": {
-    "hugo-bin": "^0.110.1"
+    "hugo-bin": "^0.146.0"
   }
 }
