@@ -1,0 +1,133 @@
+@import "bootstrap";
+@import "variables";
+@import "ads";
+@import "component-examples";
+@import "clipboard-js";
+@import "footer";
+@import "navbar";
+@import "pagination";
+@import "syntax";
+@import "theme";
+
+hr {
+  margin-block: 2rem;
+}
+
+// Quotes
+blockquote {
+  padding: .5rem 1rem;
+  margin: .8rem 0;
+  color: #7a7a7a;
+  border-left: .25rem solid #e5e5e5;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 30em) {
+    padding-right: 5rem;
+    padding-left: 1.25rem;
+  }
+}
+
+// Tables
+table {
+  @extend .table;
+  font-size: .875rem;
+
+  tbody {
+    border-top: 2px solid currentcolor;
+  }
+}
+
+
+// Container
+//
+// Center the page content.
+
+.content {
+  grid-template-columns: 1.15fr 3fr;
+  gap: 3rem;
+}
+
+.posts-container {
+  max-width: 760px;
+}
+
+.bd-gutter {
+  --bs-gutter-x: #{$bd-gutter-x};
+}
+
+
+// Posts and pages
+//
+// Each post is wrapped in `.post` and is used on default and post layouts. Each
+// page is wrapped in `.page` and is only used on the page layout.
+
+.page,
+.post {
+  margin-bottom: 4em;
+}
+
+// Blog post or page title
+.page-title,
+.post-title,
+.post-title a {
+  color: var(--bs-emphasis-color);
+}
+
+// Meta data line below post title
+.post-date {
+  display: block;
+  margin-top: -.5rem;
+  margin-bottom: 1rem;
+  color: #767676;
+}
+
+.post {
+  a {
+    word-break: break-word;
+  }
+
+  li {
+    margin-bottom: .25rem;
+  }
+
+  h2 {
+    margin-top: 1.5rem;
+    @include font-size(1.75rem);
+  }
+
+  h3 {
+    margin-top: 1.5rem;
+  }
+
+  > h1,
+  > h2,
+  > h3,
+  > h4 {
+    color: var(--bs-emphasis-color);
+  }
+}
+
+// Related posts
+.related {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid var(--bs-border-color);
+}
+.related-posts {
+  a {
+    text-decoration: none;
+  }
+}
+
+// Special case the opening paragraph
+.post > p:first-of-type,
+.post > img:first-child + p {
+  font-size: 133.333333%;
+}
+
+.bd-text-purple {
+  color: var(--bd-violet);
+}

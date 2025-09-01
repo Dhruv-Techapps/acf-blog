@@ -1,0 +1,10 @@
+{{/* precision removed (libsass-specific) so Dart Sass works */}}
+{{- $sassOptions := dict "targetPath" "/assets/css/style.css" "outputStyle" "expanded" -}}
+{{- $postcssOptions := dict "use" "autoprefixer" "noMap" true -}}
+
+{{- if hugo.IsProduction -}}
+{{- $sassOptions = merge $sassOptions (dict "outputStyle" "compressed") -}}
+{{- end -}}
+
+{{- $style := resources.Get "scss/style.scss" | toCSS $sassOptions | postCSS $postcssOptions | fingerprint }}
+<link href="{{ $style.RelPermalink }}" rel="stylesheet">

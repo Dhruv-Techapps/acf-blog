@@ -1,0 +1,41 @@
+// stylelint-disable declaration-no-important, selector-max-id
+
+//
+// Carbon ads
+//
+
+#carbonads {
+  position: static;
+  display: block;
+  max-width: 400px;
+  padding: 15px 15px 15px 160px;
+  // Custom blog property
+  // `auto` is some extra code compared to the upstream rule
+  // to center horizontally the ads at small breakpoints
+  margin: 2rem auto 0;
+  overflow: hidden;
+  @include font-size(.8125rem);
+  line-height: 1.4;
+  text-align: left;
+  background-color: var(--bs-tertiary-bg);
+
+  a {
+    color: var(--bs-body-color);
+    text-decoration: none;
+  }
+
+  @include media-breakpoint-up(sm) {
+    @include border-radius(.5rem);
+  }
+}
+
+.carbon-img {
+  float: left;
+  margin-left: -145px;
+}
+
+.carbon-poweredby {
+  display: block;
+  margin-top: .75rem;
+  color: var(--bs-body-color) !important;
+}
