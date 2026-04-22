@@ -33,7 +33,7 @@ Version 4.0.45 focuses on hardening timing logic, modernizing the build surface,
 
 The extension now launches faster under development, consumes fewer CI minutes, and yields more predictable automation timing—critical for multi‑step form flows.
 
-**[Full Changelog Snapshot ↗](https://github.com/Dhruv-Techapps/auto-clicker-auto-fill/compare/v4.0.46.3...v4.0.46.4)**
+**[Full Changelog Snapshot ↗](https://github.com/Dhruv-Techapps/acf-docs/compare/v4.0.46.3...v4.0.46.4)**
 
 ---
 

@@ -32,7 +32,7 @@ Targeted upgrades reduce transitive risk and modernize core libs, helping keep b
 
 Refinements here unlock future batching of cross‑frame actions without race conditions.
 
-**[Full Changelog ↗](https://github.com/Dhruv-Techapps/auto-clicker-auto-fill/compare/v4.0.43.4...v4.0.44.1)**
+**[Full Changelog ↗](https://github.com/Dhruv-Techapps/acf-docs/compare/v4.0.43.4...v4.0.44.1)**
 
 ---
 

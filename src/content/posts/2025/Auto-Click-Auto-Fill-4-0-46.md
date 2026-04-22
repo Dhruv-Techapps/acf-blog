@@ -35,7 +35,7 @@ first.
 | Code cleanup / type tightening  | Reduced cognitive load for contributors |
 | UI polish rounds                | Consistent spacing & readable modals    |
 
-**[Full Changelog ↗](https://github.com/Dhruv-Techapps/auto-clicker-auto-fill/compare/v4.0.46.4...v4.0.46.8)**
+**[Full Changelog ↗](https://github.com/Dhruv-Techapps/acf-docs/compare/v4.0.46.4...v4.0.46.8)**
 
 ---
 

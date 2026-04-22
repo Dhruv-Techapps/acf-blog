@@ -46,7 +46,7 @@ Local Theme Context and dropdown refactor reduce prop drilling and improve isola
 
 This release shifts the extension from incremental polish toward extensibility: bringing custom JavaScript closer to the core while tightening performance.
 
-**[Full Changelog ↗](https://github.com/Dhruv-Techapps/auto-clicker-auto-fill/compare/v4.0.47.0...v4.0.47.2)**
+**[Full Changelog ↗](https://github.com/Dhruv-Techapps/acf-docs/compare/v4.0.47.0...v4.0.47.2)**
 
 ---
 
