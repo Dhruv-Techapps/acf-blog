@@ -76,7 +76,7 @@ The extension keeps the most recent snapshots and rotates older ones automatical
 
 Page Guard gained a `Func::` prefix that lets you evaluate any JavaScript expression instead of reading a DOM element.
 
-```
+```text
 Func::new Date().getHours()      → current hour (0–23)
 Func::location.href              → current page URL
 ```
