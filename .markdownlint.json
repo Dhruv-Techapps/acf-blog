@@ -28,5 +28,7 @@
   },
   "MD046": {
     "style": "fenced"
-  }
+  },
+  "MD001": false,
+  "MD060": false
 }
