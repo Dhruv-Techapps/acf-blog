@@ -26,6 +26,8 @@ execFile("java", ["-version"], (error, stdout, stderr) => {
     // TODO report the issue upstream in Hugo
     "Duplicate ID.*",
     "The first occurrence of ID.*",
+    ".*aria-labelledby.*",
+    "The heading .* follows the heading .*, skipping [0-9]+ heading level[s]?.",
   ].join("|")
 
   const args = [
