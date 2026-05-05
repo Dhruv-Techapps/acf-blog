@@ -17,7 +17,7 @@ This is a Hugo-based blog for Auto Clicker AutoFill at `blog.getautoclicker.com`
 
 ## Project Structure
 
-```
+```text
 /src
 ├── content/           # Blog posts and content (Markdown)
 │   └── posts/        # Individual blog posts organized by year/month
@@ -34,7 +34,7 @@ This is a Hugo-based blog for Auto Clicker AutoFill at `blog.getautoclicker.com`
 - **Static Site Generator**: Hugo (v0.134.3) with extended features
 - **CSS Framework**: Bootstrap 5.3.8 with custom SCSS
 - **JavaScript**: Vanilla JS with clipboard.js and vanilla-lazyload
-- **Build Tooling**: 
+- **Build Tooling**:
   - Hugo for site generation
   - PostCSS with Autoprefixer for CSS processing
   - ESLint for JavaScript linting
@@ -57,6 +57,7 @@ This is a Hugo-based blog for Auto Clicker AutoFill at `blog.getautoclicker.com`
 ## Common Development Tasks
 
 ### Creating a New Blog Post
+
 1. Create new Markdown file in `src/content/posts/YYYY/MM/`
 2. Add YAML frontmatter with title, date, author, tags
 3. Use Markdown for content
@@ -64,12 +65,14 @@ This is a Hugo-based blog for Auto Clicker AutoFill at `blog.getautoclicker.com`
 5. Validate with `npm test` before committing
 
 ### Working with Styles
+
 1. Edit SCSS files in `src/assets/scss/`
 2. Bootstrap variables can be customized
 3. Run `npm run test-stylelint` to validate SCSS
 4. Run `npm run test-fusv` to find unused Sass variables
 
 ### Content Validation
+
 1. Markdown: `npm run test-markdownlint` -- checks Markdown formatting
 2. Links: `npm run test-linkinator` -- validates all links in built site
 3. HTML: `npm run test-vnu` -- validates HTML output
@@ -95,6 +98,7 @@ This is a Hugo-based blog for Auto Clicker AutoFill at `blog.getautoclicker.com`
 ## Quality Checks (npm test)
 
 All quality checks must pass before deployment:
+
 1. **ESLint**: JavaScript code quality
 2. **FUSV**: Unused Sass variables detection
 3. **Stylelint**: SCSS/CSS code quality
@@ -116,12 +120,14 @@ All quality checks must pass before deployment:
 ## Relationship to Other Projects
 
 This blog is part of the Auto Clicker AutoFill ecosystem:
+
 - Main extension: `auto-clicker-auto-fill` workspace
 - Documentation: `acf-docs` project
 - Backend: `acf-firebase` project
 - Translations: `acf-i18n` project
 
 When referencing other projects or creating cross-links, use the appropriate base URLs:
+
 - Docs: `https://getautoclicker.com`
 - Stable app: `https://stable.getautoclicker.com`
 - Configs: `https://configs.getautoclicker.com`
