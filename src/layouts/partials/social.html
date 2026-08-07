@@ -2,8 +2,8 @@
 {{- $authorTwitter := "" -}}
 
 {{- if isset .Page.Params "author" -}}
-  {{- $author = (index .Site.Data.authors .Page.Params.author).name -}}
-  {{- $authorTwitter = (index .Site.Data.authors .Params.author).twitter -}}
+  {{- $author = (index hugo.Data.authors .Page.Params.author).name -}}
+  {{- $authorTwitter = (index hugo.Data.authors .Params.author).twitter -}}
 {{- end -}}
 
 <meta name="author" content="{{ $author | default .Site.Params.author }}">
