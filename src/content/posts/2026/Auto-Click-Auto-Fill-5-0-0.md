@@ -11,6 +11,9 @@ keywords:
   - dodo payments
   - release
   - milestone
+  - ask ai
+  - chat
+  - qna
 ---
 
 ## Eight and a Half Years
@@ -93,6 +96,26 @@ Everything in Plus, plus:
 You can review the plans and subscribe from the **Subscription** section inside the extension's options page.
 
 Payment is handled through **Dodo Payments**, backed by Stripe. Your payment details are processed securely and never stored by me.
+
+---
+
+## Ask AI
+
+Right after talking about subscriptions, I want to point out something that isn't behind a paywall.
+
+5.0.0 also introduces **Ask AI** — a chat-style assistant built directly into the Side Panel. Instead of digging through the docs or guessing why a step isn't matching, you can just ask.
+
+You can open it three ways:
+
+- Open the Side Panel and select the new `Ask` tab.
+- Right-click on any page and choose **✨ Ask AI** — it opens the Side Panel straight to the `Ask` tab.
+- Click the floating 🤖 button in the bottom corner of the extension's Configuration page.
+
+Sign in once, then type a question — "What is a loop?", "Why isn't my step matching?" — and you'll get a plain-language answer, often with links back to the exact docs page it came from. Every answer has a quick 👍 / 👎 so I know which answers are actually helping.
+
+Ask AI has no Pro gate and no usage limit. Free, Plus, and Pro users all get it, because good support shouldn't be something you have to pay for.
+
+Full details are in the [Ask AI docs](https://getautoclicker.com/docs/5.x/side-panel/ask-ai/).
 
 ---
 
