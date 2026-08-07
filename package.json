@@ -20,8 +20,7 @@
   "author": "Dhruv Techapps",
   "license": "MIT",
   "hugo-bin": {
-    "buildTags": "extended",
-    "version": "0.134.3"
+    "buildTags": "extended"
   },
   "dependencies": {
     "@eslint/js": "^9.34.0",
