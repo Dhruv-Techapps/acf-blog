@@ -14,25 +14,23 @@ const btnHtml = [
   '</div>'
 ].join('')
 
-document.querySelectorAll('.highlight')
-  .forEach(element => {
-    if (!element.closest('.bd-example-snippet')) { // Ignore examples made be shortcode
-      element.insertAdjacentHTML('beforebegin', btnHtml)
-      element.previousElementSibling.append(element)
-    }
-  })
+document.querySelectorAll('.highlight').forEach(element => {
+  if (!element.closest('.bd-example-snippet')) {
+    // Ignore examples made be shortcode
+    element.insertAdjacentHTML('beforebegin', btnHtml)
+    element.previousElementSibling.append(element)
+  }
+})
 
-document.querySelectorAll('[data-bs-toggle="tooltip"]')
-  .forEach(tooltip => {
-    new bootstrap.Tooltip(tooltip)
-  })
+document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(tooltip => {
+  new bootstrap.Tooltip(tooltip)
+})
 
-document.querySelectorAll('.content [href="#"]')
-  .forEach(link => {
-    link.addEventListener('click', event => {
-      event.preventDefault()
-    })
+document.querySelectorAll('.content [href="#"]').forEach(link => {
+  link.addEventListener('click', event => {
+    event.preventDefault()
   })
+})
 
 window.addEventListener('load', () => {
   document.querySelectorAll('.btn-clipboard').forEach(btn => {
@@ -46,22 +44,27 @@ const clipboard = new ClipboardJS('.btn-clipboard', {
 })
 
 clipboard.on('success', event => {
-  const iconFirstChild = event.trigger.querySelector('.bi').firstElementChild
-  const tooltipBtn = bootstrap.Tooltip.getInstance(event.trigger)
+  const trigger = /** @type {HTMLElement} */ (event.trigger)
+  const iconFirstChild = trigger.querySelector('.bi').firstElementChild
+  const tooltipBtn = bootstrap.Tooltip.getInstance(trigger)
   const namespace = 'http://www.w3.org/1999/xlink'
   const originalXhref = iconFirstChild.getAttributeNS(namespace, 'href')
-  const originalTitle = event.trigger.title
+  const originalTitle = trigger.title
 
   tooltipBtn.setContent({ '.tooltip-inner': 'Copied!' })
-  event.trigger.addEventListener('hidden.bs.tooltip', () => {
-    tooltipBtn.setContent({ '.tooltip-inner': btnTitle })
-  }, { once: true })
+  trigger.addEventListener(
+    'hidden.bs.tooltip',
+    () => {
+      tooltipBtn.setContent({ '.tooltip-inner': btnTitle })
+    },
+    { once: true }
+  )
   event.clearSelection()
   iconFirstChild.setAttributeNS(namespace, 'href', originalXhref.replace('clipboard', 'check2'))
 
   setTimeout(() => {
     iconFirstChild.setAttributeNS(namespace, 'href', originalXhref)
-    event.trigger.title = originalTitle
+    trigger.title = originalTitle
   }, 2000)
 })
 
@@ -71,7 +74,11 @@ clipboard.on('error', event => {
   const tooltipBtn = bootstrap.Tooltip.getInstance(event.trigger)
 
   tooltipBtn.setContent({ '.tooltip-inner': fallbackMsg })
-  event.trigger.addEventListener('hidden.bs.tooltip', () => {
-    tooltipBtn.setContent({ '.tooltip-inner': btnTitle })
-  }, { once: true })
+  event.trigger.addEventListener(
+    'hidden.bs.tooltip',
+    () => {
+      tooltipBtn.setContent({ '.tooltip-inner': btnTitle })
+    },
+    { once: true }
+  )
 })

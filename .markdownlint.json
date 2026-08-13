@@ -15,13 +15,7 @@
   "MD013": false,
   "MD026": false,
   "MD033": {
-    "allowed_elements": [
-      "a",
-      "br",
-      "hr",
-      "kbd",
-      "span"
-    ]
+    "allowed_elements": ["a", "br", "hr", "kbd", "span"]
   },
   "MD035": {
     "style": "---"

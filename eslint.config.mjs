@@ -5,13 +5,7 @@ import globals from 'globals'
 export default [
   // global ignores
   {
-    ignores: [
-      '.cache/**',
-      '.netlify/**',
-      '_site/**',
-      'node_modules/**',
-      'resources/**'
-    ],
+    ignores: ['.cache/**', '.netlify/**', '_site/**', 'node_modules/**', 'resources/**']
   },
   {
     languageOptions: {
@@ -27,28 +21,17 @@ export default [
   },
   js.configs.recommended,
   {
-    files: [
-      '**/*.js',
-      '**/*.mjs'
-    ],
+    files: ['**/*.js', '**/*.mjs'],
     rules: {
       'no-return-await': 'error',
-      'object-curly-spacing': [
-        'error',
-        'always'
-      ],
+      'object-curly-spacing': ['error', 'always'],
       'prefer-template': 'error',
-      semi: [
-        'error',
-        'never'
-      ],
+      semi: ['error', 'never'],
       strict: 'error'
     }
   },
   {
-    files: [
-      'scripts/**'
-    ],
+    files: ['scripts/**'],
     languageOptions: {
       globals: {
         ...globals.nodeBuiltin

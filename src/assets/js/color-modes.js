@@ -4,7 +4,7 @@
  * Licensed under the Creative Commons Attribution 3.0 Unported License.
  */
 
-(() => {
+;(() => {
   const getStoredTheme = () => localStorage.getItem('theme')
   const setStoredTheme = theme => localStorage.setItem('theme', theme)
 
@@ -19,7 +19,7 @@
 
   const setTheme = theme => {
     if (theme === 'auto') {
-      document.documentElement.setAttribute('data-bs-theme', (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'))
+      document.documentElement.setAttribute('data-bs-theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
     } else {
       document.documentElement.setAttribute('data-bs-theme', theme)
     }
@@ -28,7 +28,7 @@
   setTheme(getPreferredTheme())
 
   const showActiveTheme = (theme, focus = false) => {
-    const themeSwitcher = document.querySelector('#bd-theme')
+    const themeSwitcher = /** @type {HTMLElement} */ (document.querySelector('#bd-theme'))
 
     if (!themeSwitcher) {
       return
@@ -36,7 +36,7 @@
 
     const themeSwitcherText = document.querySelector('#bd-theme-text')
     const activeThemeIcon = document.querySelector('.theme-icon-active use')
-    const btnToActive = document.querySelector(`[data-bs-theme-value="${theme}"]`)
+    const btnToActive = /** @type {HTMLElement} */ (document.querySelector(`[data-bs-theme-value="${theme}"]`))
     const svgOfActiveBtn = btnToActive.querySelector('svg use').getAttribute('href')
 
     document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
@@ -65,14 +65,13 @@
   window.addEventListener('DOMContentLoaded', () => {
     showActiveTheme(getPreferredTheme())
 
-    document.querySelectorAll('[data-bs-theme-value]')
-      .forEach(toggle => {
-        toggle.addEventListener('click', () => {
-          const theme = toggle.getAttribute('data-bs-theme-value')
-          setStoredTheme(theme)
-          setTheme(theme)
-          showActiveTheme(theme, true)
-        })
+    document.querySelectorAll('[data-bs-theme-value]').forEach(toggle => {
+      toggle.addEventListener('click', () => {
+        const theme = toggle.getAttribute('data-bs-theme-value')
+        setStoredTheme(theme)
+        setTheme(theme)
+        showActiveTheme(theme, true)
       })
+    })
   })
 })()

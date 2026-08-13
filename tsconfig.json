@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "lib": ["es2022", "dom", "dom.iterable"],
+    "types": ["node"],
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    // Browser scripts and one build helper, none of them annotated, so `strict` would only ask for
+    // JSDoc everywhere. This still catches typos, bad call signatures and missing DOM members.
+    "strict": false
+  },
+  "include": ["src/assets/js/**/*.js", "scripts/**/*.mjs", "types/**/*.d.ts"],
+  "exclude": ["node_modules", "_site", "resources"]
+}
