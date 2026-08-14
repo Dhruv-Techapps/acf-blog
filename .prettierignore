@@ -1,0 +1,17 @@
+# Build output and caches
+_site/
+resources/
+.cache/
+node_modules/
+package-lock.json
+
+# Hugo templates: `.html` here is Go template syntax, which Prettier's HTML parser cannot read.
+*.html
+
+# Markdown is owned by markdownlint (`npm run test-markdownlint`); running both would
+# mean two tools reformatting the same posts.
+*.md
+
+# SCSS is owned by stylelint-config-twbs-bootstrap (`npm run test-stylelint`), which disagrees
+# with Prettier on quotes and leading zeros. One owner per file type.
+*.scss

@@ -1,17 +1,11 @@
-import js from '@eslint/js'
-import globals from 'globals'
+import js from '@eslint/js';
+import globals from 'globals';
 
 /** @type {import('eslint').Linter.FlatConfig[]} */
 export default [
   // global ignores
   {
-    ignores: [
-      '.cache/**',
-      '.netlify/**',
-      '_site/**',
-      'node_modules/**',
-      'resources/**'
-    ],
+    ignores: ['.cache/**', '.netlify/**', '_site/**', 'node_modules/**', 'resources/**']
   },
   {
     languageOptions: {
@@ -27,32 +21,20 @@ export default [
   },
   js.configs.recommended,
   {
-    files: [
-      '**/*.js',
-      '**/*.mjs'
-    ],
+    files: ['**/*.js', '**/*.mjs'],
     rules: {
       'no-return-await': 'error',
-      'object-curly-spacing': [
-        'error',
-        'always'
-      ],
+      // Semicolons and spacing are Prettier's call — see `.prettierrc`, shared with the other repos.
       'prefer-template': 'error',
-      semi: [
-        'error',
-        'never'
-      ],
       strict: 'error'
     }
   },
   {
-    files: [
-      'scripts/**'
-    ],
+    files: ['scripts/**'],
     languageOptions: {
       globals: {
         ...globals.nodeBuiltin
       }
     }
   }
-]
+];
