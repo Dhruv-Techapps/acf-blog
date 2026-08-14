@@ -1,8 +1,8 @@
 /* global bootstrap:false */
 
-import ClipboardJS from 'clipboard'
+import ClipboardJS from 'clipboard';
 
-const btnTitle = 'Copy to clipboard'
+const btnTitle = 'Copy to clipboard';
 
 const btnHtml = [
   '<div class="bd-code-snippet">',
@@ -12,73 +12,73 @@ const btnHtml = [
   '    </button>',
   '  </div>',
   '</div>'
-].join('')
+].join('');
 
-document.querySelectorAll('.highlight').forEach(element => {
+document.querySelectorAll('.highlight').forEach((element) => {
   if (!element.closest('.bd-example-snippet')) {
     // Ignore examples made be shortcode
-    element.insertAdjacentHTML('beforebegin', btnHtml)
-    element.previousElementSibling.append(element)
+    element.insertAdjacentHTML('beforebegin', btnHtml);
+    element.previousElementSibling.append(element);
   }
-})
+});
 
-document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(tooltip => {
-  new bootstrap.Tooltip(tooltip)
-})
+document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach((tooltip) => {
+  new bootstrap.Tooltip(tooltip);
+});
 
-document.querySelectorAll('.content [href="#"]').forEach(link => {
-  link.addEventListener('click', event => {
-    event.preventDefault()
-  })
-})
+document.querySelectorAll('.content [href="#"]').forEach((link) => {
+  link.addEventListener('click', (event) => {
+    event.preventDefault();
+  });
+});
 
 window.addEventListener('load', () => {
-  document.querySelectorAll('.btn-clipboard').forEach(btn => {
-    bootstrap.Tooltip.getOrCreateInstance(btn, { btnTitle })
-  })
-})
+  document.querySelectorAll('.btn-clipboard').forEach((btn) => {
+    bootstrap.Tooltip.getOrCreateInstance(btn, { btnTitle });
+  });
+});
 
 const clipboard = new ClipboardJS('.btn-clipboard', {
-  target: trigger => trigger.closest('.bd-code-snippet').querySelector('.highlight'),
-  text: trigger => trigger.closest('.bd-code-snippet').querySelector('.highlight').textContent.trimEnd()
-})
+  target: (trigger) => trigger.closest('.bd-code-snippet').querySelector('.highlight'),
+  text: (trigger) => trigger.closest('.bd-code-snippet').querySelector('.highlight').textContent.trimEnd()
+});
 
-clipboard.on('success', event => {
-  const trigger = /** @type {HTMLElement} */ (event.trigger)
-  const iconFirstChild = trigger.querySelector('.bi').firstElementChild
-  const tooltipBtn = bootstrap.Tooltip.getInstance(trigger)
-  const namespace = 'http://www.w3.org/1999/xlink'
-  const originalXhref = iconFirstChild.getAttributeNS(namespace, 'href')
-  const originalTitle = trigger.title
+clipboard.on('success', (event) => {
+  const trigger = /** @type {HTMLElement} */ (event.trigger);
+  const iconFirstChild = trigger.querySelector('.bi').firstElementChild;
+  const tooltipBtn = bootstrap.Tooltip.getInstance(trigger);
+  const namespace = 'http://www.w3.org/1999/xlink';
+  const originalXhref = iconFirstChild.getAttributeNS(namespace, 'href');
+  const originalTitle = trigger.title;
 
-  tooltipBtn.setContent({ '.tooltip-inner': 'Copied!' })
+  tooltipBtn.setContent({ '.tooltip-inner': 'Copied!' });
   trigger.addEventListener(
     'hidden.bs.tooltip',
     () => {
-      tooltipBtn.setContent({ '.tooltip-inner': btnTitle })
+      tooltipBtn.setContent({ '.tooltip-inner': btnTitle });
     },
     { once: true }
-  )
-  event.clearSelection()
-  iconFirstChild.setAttributeNS(namespace, 'href', originalXhref.replace('clipboard', 'check2'))
+  );
+  event.clearSelection();
+  iconFirstChild.setAttributeNS(namespace, 'href', originalXhref.replace('clipboard', 'check2'));
 
   setTimeout(() => {
-    iconFirstChild.setAttributeNS(namespace, 'href', originalXhref)
-    trigger.title = originalTitle
-  }, 2000)
-})
+    iconFirstChild.setAttributeNS(namespace, 'href', originalXhref);
+    trigger.title = originalTitle;
+  }, 2000);
+});
 
-clipboard.on('error', event => {
-  const modifierKey = /mac/i.test(navigator.userAgent) ? '\u2318' : 'Ctrl-'
-  const fallbackMsg = `Press ${modifierKey}C to copy`
-  const tooltipBtn = bootstrap.Tooltip.getInstance(event.trigger)
+clipboard.on('error', (event) => {
+  const modifierKey = /mac/i.test(navigator.userAgent) ? '\u2318' : 'Ctrl-';
+  const fallbackMsg = `Press ${modifierKey}C to copy`;
+  const tooltipBtn = bootstrap.Tooltip.getInstance(event.trigger);
 
-  tooltipBtn.setContent({ '.tooltip-inner': fallbackMsg })
+  tooltipBtn.setContent({ '.tooltip-inner': fallbackMsg });
   event.trigger.addEventListener(
     'hidden.bs.tooltip',
     () => {
-      tooltipBtn.setContent({ '.tooltip-inner': btnTitle })
+      tooltipBtn.setContent({ '.tooltip-inner': btnTitle });
     },
     { once: true }
-  )
-})
+  );
+});

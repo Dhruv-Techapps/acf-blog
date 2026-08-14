@@ -1,5 +1,5 @@
-import js from '@eslint/js'
-import globals from 'globals'
+import js from '@eslint/js';
+import globals from 'globals';
 
 /** @type {import('eslint').Linter.FlatConfig[]} */
 export default [
@@ -24,9 +24,8 @@ export default [
     files: ['**/*.js', '**/*.mjs'],
     rules: {
       'no-return-await': 'error',
-      'object-curly-spacing': ['error', 'always'],
+      // Semicolons and spacing are Prettier's call — see `.prettierrc`, shared with the other repos.
       'prefer-template': 'error',
-      semi: ['error', 'never'],
       strict: 'error'
     }
   },
@@ -38,4 +37,4 @@ export default [
       }
     }
   }
-]
+];
