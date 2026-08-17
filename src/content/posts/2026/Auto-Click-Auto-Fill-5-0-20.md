@@ -47,10 +47,4 @@ Generic docs examples can only get you so far when your page's real markup doesn
 
 It turns Ask AI from a docs lookup into something closer to pair-programming your automation with your page open in front of it.
 
-## PR Reference
-
-These changes span three repositories: the extension's page-context picker and sidebar UI, plus backend support for passing the picked elements through to the AI.
-
-[View PR #857](https://github.com/Dhruv-Techapps/auto-clicker-auto-fill/pull/857) (extension)
-[View PR #33](https://github.com/Dhruv-Techapps/acf-firebase/pull/33) (acf-firebase)
-[View PR #26](https://github.com/Dhruv-Techapps/acf-bot/pull/26) (acf-bot)
+See the [Ask AI docs](https://getautoclicker.com/docs/5.x/side-panel/ask-ai/) for the full walkthrough, including how picking and multi-select work.
