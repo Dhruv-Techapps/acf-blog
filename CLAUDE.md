@@ -57,15 +57,21 @@ Routine release, as in `Auto-Click-Auto-Fill-5-0-12.md`:
 Milestone releases (5.0.0) break this shape deliberately and run long and narrative. That's
 fine — the structure above is for ordinary releases.
 
-## Never link to PRs or branches
+## Never link to PRs, branches, or GitHub repos
 
-**Don't reference pull requests, branches, or commits in a post.** Some of the work happens
-in private branches, so those links are dead or inaccessible for readers.
+**Don't reference pull requests, branches, commits, or any `github.com/Dhruv-Techapps/...`
+URL in a post.** The extension, `acf-firebase`, `acf-bot`, and `acf-i18n` repos are
+private — those links are dead or inaccessible for readers. This applies even when a
+feature's implementation spans several of those repos; the post still stays user-facing
+only, it doesn't enumerate the repos or PRs behind it.
 
 Older posts have a `## PR Reference` section (e.g. `Auto-Click-Auto-Fill-5-0-12.md` links
 to PR #822) — that's a pattern to stop repeating, not to copy. Describe the change in
 user-facing terms instead, and link to the docs page for the feature if a reference is
-wanted.
+wanted (`https://getautoclicker.com/docs/5.x/...` is public and fine to link).
+
+**Before treating a post as done, grep it for `github.com/Dhruv-Techapps`** — any match
+means a PR/branch/repo link snuck in and needs to be replaced with a docs link or removed.
 
 The same rule applies in `acf-docs`.
 
