@@ -1,5 +1,5 @@
 ---
-author: Dharmesh-Hemaram
+author: dharmesh-hemaram
 date: "2026-08-17"
 title: Auto Clicker Auto Fill v5.0.20
 slug: 5.0.20
